@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  width: 25%;
+}
+
+.task-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.complete {
+  text-decoration-line: line-through;
+}
